@@ -14,7 +14,7 @@ if(is_executable($sFile)) {
     exec($sFile, $aResults);
     foreach($aResults as $sResult) echo $sResult;
 } else {
-    echo "Please change the permission of the Perl script for PHP to run this script with exec function.<br />
-          Try this in your terminal: sudo chmod +x foreach.pl";
+    echo 'Please change the permission of the Perl script for PHP to run this script with exec function.<br />
+          Try this in your terminal: sudo chmod +x foreach.pl';
 }
 ?>
