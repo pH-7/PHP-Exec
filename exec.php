@@ -1,10 +1,15 @@
 <?php
-/* Example for exec PHP function
+/**
+ * Example for exec PHP function
+ *
+ * Licensed under The MIT License
+ * Redistributions of files must retain the above copyright notice.
  *
  * @author      SORIA Pierre-Henry
  * @email       pierrehs@hotmail.com
  * @link        http://github.com/pH-7
- * @license     GNU GPL 3 (http://github.com/pH-7www.gnu.org/licenses/gpl-3.0.html)
+ * @license     MIT License (http://www.opensource.org/licenses/mit-license.php)
+ *
  * @desc This code was built for an blog article: http://blog.01tchat.com/execute-programme-avec-php/
  */
 
