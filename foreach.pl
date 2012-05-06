@@ -13,8 +13,23 @@
  * @desc This code was built for an blog article: http://blog.01tchat.com/execute-programme-avec-php/
 =cut
 
-# Array Text
-@aPhrases = ("hello world", "I love Perl", "I love PHP and syntax of C", "PHP VS Perl", "PHP VS Python", "Java VS C#", "pHS, I love programming");
+# Array Text 
+my @aPhrases = ("hello world", "I love Perl", "I love PHP and syntax of C", "PHP VS Perl", "PHP VS Python", "Java VS C#", "pHS, I love programming");
 foreach $sPhrase(@aPhrases) {
-  print $sPhrase . "<br />";
+    print $sPhrase . "<br />";
+}
+
+# Hash Array Text 
+my %aWords = ("a" => "Abbasid", "b" => "Bakunin", "c" => "Castor", "d" => "Dadaism");
+foreach $sWord(%aWords) {
+    print $sWord . "<br />";
+}
+
+# Simple Text
+my $bIsPHP = 1;
+my $sTxt = "This program is run through PHP!";
+
+# This script is executed by using the PHP exec function
+if($bIsPHP) {
+    print $sTxt;
 }
