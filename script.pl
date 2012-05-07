@@ -15,6 +15,10 @@
 
 # Array Text 
 my @aPhrases = ("hello world", "I love Perl", "I love PHP and syntax of C", "PHP VS Perl", "PHP VS Python", "Java VS C#", "pHS, I love programming");
+
+# Sort by alphabetical order with case-insensitively
+@aPhrases = sort {uc($a) cmp uc($b)} @aPhrases;
+
 foreach $sPhrase(@aPhrases) {
     print ucfirst $sPhrase . "<br />";
 }
